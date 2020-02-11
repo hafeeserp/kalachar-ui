@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kalachar/kalachar_home_page.dart';
+import 'package:kalachar/ui/screens/sign_up_screen.dart';
+import 'package:kalachar/ui/screens/welcome_screen.dart';
+
 void main() => runApp(KalacharApp());
 
 class KalacharApp extends StatelessWidget {
@@ -9,8 +11,10 @@ class KalacharApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Kalachar',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage(),
+      home: WelcomeScreen(),
     );
   }
 }
+
+
 

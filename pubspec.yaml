@@ -19,8 +19,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_swiper : any
   charts_flutter:
   splashscreen:
+  # firebase_auth: ^0.6.6
+  # flutter_facebook_login: ^1.1.1
+  # shared_preferences: any
+  # cloud_firestore: any
   # animated_text_kit: ^2.0.0
 
 
