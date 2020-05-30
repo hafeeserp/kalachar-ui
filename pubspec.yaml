@@ -19,6 +19,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_datetime_picker:
+    git:
+      url: https://github.com/derohimat/flutter_datetime_picker.git
+#  flutter_datetime_picker: 1.2.5
+  http: ^0.12.0+2
+  autocomplete_textfield: ^1.6.4
+  toast: ^0.1.5
+  intl: ^0.15.8
+  animated_text_kit: ^2.0.0
+  json_serializable: ^2.0.2
   flutter_swiper : any
   charts_flutter:
   splashscreen:
