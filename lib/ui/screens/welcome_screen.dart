@@ -105,7 +105,6 @@ class _BackButtonState extends State<BackButton> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: WillPopScope(
-        onWillPop: onWillPop,
         child: Center(
           child: Text('Double Click to exit app'),
         ),

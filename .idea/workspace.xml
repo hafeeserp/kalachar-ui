@@ -10,62 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fedbfb4-1cfd-48cc-b7a4-f7ad3dd3b2cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/kalachar_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/api_calls/call.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/business/splash_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/booking.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/dropdown.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/profile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/screens/booking.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/screens/dancers.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/screens/final.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/screens/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/undraw_chore_list_iof3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/kalachar_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/kalachar_android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kalachar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kalachar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kalachar_home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kalachar_home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/screens/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/sign_up_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/welcome_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api_calls/call.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/business/splash_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/business/validator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/walkthrough.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/add_category.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/splash_screen.dart" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +26,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="920128339dd353cf" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -105,18 +56,6 @@
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -142,5 +81,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Screens deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screens deleted" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591343558524">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="491" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1315.741@51.27.1315.741" timestamp="1591343558524" />
+    <state x="197" y="31" key="SettingsEditor" timestamp="1591343796969">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="197" y="31" key="SettingsEditor/51.27.1315.741@51.27.1315.741" timestamp="1591343796969" />
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1591343763301">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/51.27.1315.741@51.27.1315.741" timestamp="1591343763301" />
   </component>
 </project>

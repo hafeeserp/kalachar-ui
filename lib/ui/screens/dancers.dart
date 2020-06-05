@@ -1,15 +1,11 @@
 import 'dart:core';
 import "package:flutter/material.dart";
 import "package:kalachar/ui/widgets/custom_text_field.dart";
-import 'package:kalachar/business/validator.dart';
-import 'package:flutter/services.dart';
 import 'package:kalachar/ui/widgets/custom_flat_button.dart';
-import 'package:kalachar/kalachar_home_page.dart';
 import 'dart:io';
 import 'package:toast/toast.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:kalachar/api_calls/call.dart';
 
 class DancerScreen extends StatefulWidget {
   _DancerScreenState createState() => _DancerScreenState();
@@ -17,7 +13,6 @@ class DancerScreen extends StatefulWidget {
 
 class _DancerScreenState extends State<DancerScreen> {
   bool Iloading = false;
-  static List<LoginCall> res = new List<LoginCall>();
   final TextEditingController _phone = new TextEditingController();
   final TextEditingController _password = new TextEditingController();
   final TextEditingController _bar = new TextEditingController();
