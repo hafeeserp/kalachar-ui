@@ -1,4 +1,4 @@
-#Mon May 18 01:00:31 IST 2020
-base.0=/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/dex/debug/out/classes.dex
+#Fri Sep 11 14:25:26 IST 2020
+base.0=/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

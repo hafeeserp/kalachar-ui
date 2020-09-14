@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
+            "outputFile": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-2/files-2.1/a9db740b60dc36334c2480530f66f4a2/core-1.1.0/res/values-ka/values-ka.xml",
+                    "source": "/home/kaviya/.gradle/caches/transforms-2/files-2.1/a9db740b60dc36334c2480530f66f4a2/core-1.1.0/res/values-ka/values-ka.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

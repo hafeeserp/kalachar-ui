@@ -9,11 +9,11 @@ import 'package:kalachar/ui/widgets/custom_flat_button.dart';
 
 
 class FinalScreen extends StatefulWidget {
-  final String org_phone;
-  final String value;
-  final String date;
-  final String time;
-  FinalScreen({Key key,this.org_phone,this.value,this.date,this.time}): super(key: key);
+  // final String org_phone;
+  // final String value;
+  // final String date;
+  // final String time;
+  // FinalScreen({Key key,this.org_phone,this.value,this.date,this.time}): super(key: key);
   @override
   _FinalScreenState createState() => _FinalScreenState();
 }
@@ -197,29 +197,29 @@ class _FinalScreenState extends State<FinalScreen> {
     );
   }
   final_auth(String _selected) async {
-    var phone = _phone.text;
-    final uri = "https://kalachar.aerele.in/api/resource/Booking%20Status";
-    final headers = {
-      HttpHeaders.authorizationHeader: "token 0612c2a10307f3f:945c07858b66c2a",
-      'Content-Type': "application/json",
-    };
-    Map<String, dynamic> body = { 'data':'{\"docstatus\": 1, \"from_user\": \"${widget.value}\", \"to_user\": \"${widget.org_phone}\", \"doctype\": \"Booking Status\",\"purpose\": \"$_selected\", \"bargain_amount\": \"$phone\", \"booking_status\": \"Booking Request\",\"date\": \"${widget.date}\", \"time\": \"${widget.time}\"}'
-    };
-    String jsonBody = json.encode(body);
-    print(jsonBody);
+  //   var phone = _phone.text;
+  //   final uri = "https://kalachar.aerele.in/api/resource/Booking%20Status";
+  //   final headers = {
+  //     HttpHeaders.authorizationHeader: "token 0612c2a10307f3f:945c07858b66c2a",
+  //     'Content-Type': "application/json",
+  //   };
+  //   Map<String, dynamic> body = { 'data':'{\"docstatus\": 1, \"from_user\": \"${widget.value}\", \"to_user\": \"${widget.org_phone}\", \"doctype\": \"Booking Status\",\"purpose\": \"$_selected\", \"bargain_amount\": \"$phone\", \"booking_status\": \"Booking Request\",\"date\": \"${widget.date}\", \"time\": \"${widget.time}\"}'
+  //   };
+  //   String jsonBody = json.encode(body);
+  //   print(jsonBody);
 
-    var response = await http.post(
-      uri,
-      headers: headers,
-      body: jsonBody,
-    );
-    print(response.statusCode);
-    if (response.statusCode == 200) {
-      return response.statusCode;
-    } else {
-      Toast.show("Booking Confirmed", context,
-          duration: Toast.LENGTH_LONG, gravity: Toast.BOTTOM);
-    }
+  //   var response = await http.post(
+  //     uri,
+  //     headers: headers,
+  //     body: jsonBody,
+  //   );
+  //   print(response.statusCode);
+  //   if (response.statusCode == 200) {
+  //     return response.statusCode;
+  //   } else {
+  //     Toast.show("Booking Confirmed", context,
+  //         duration: Toast.LENGTH_LONG, gravity: Toast.BOTTOM);
+  //   }
   }
 
 

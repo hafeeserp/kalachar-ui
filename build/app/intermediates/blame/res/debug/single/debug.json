@@ -1,54 +1,50 @@
 [
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_welcome1.jpg.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/welcome1.jpg"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xhdpi_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xhdpi/kalachaar.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_kalachar_logo.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/kalachar_logo.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_hello1.jpg.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/hello1.jpg"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_dance.jpeg.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/dance.jpeg"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-hdpi_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-hdpi/kalachaar.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_undraw_celebration_0jvk.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/undraw_celebration_0jvk.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xxhdpi/kalachaar.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/launch_background.xml"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/drawable_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/drawable/kalachaar.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_hello.jpg.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/hello.jpg"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xxxhdpi/kalachaar.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/build/app/intermediates/res/merged/debug/drawable_undraw_booking_33fn.png.flat",
-        "source": "/home/vignesh/Desktop/Lenovo/FYP2020/kalachar/android/app/src/main/res/drawable/undraw_booking_33fn.png"
+        "merged": "/home/kaviya/Desktop/kalachar-ui/build/app/intermediates/res/merged/debug/mipmap-mdpi_kalachaar.png.flat",
+        "source": "/home/kaviya/Desktop/kalachar-ui/android/app/src/main/res/mipmap-mdpi/kalachaar.png"
     }
 ]

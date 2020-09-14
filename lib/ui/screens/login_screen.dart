@@ -1,5 +1,6 @@
 import 'dart:core';
 import "package:flutter/material.dart";
+import 'package:kalachar/ui/screens/booking.dart';
 import "package:kalachar/ui/widgets/custom_text_field.dart";
 import 'package:kalachar/ui/widgets/custom_flat_button.dart';
 import 'package:kalachar/kalachar_home_page.dart';
@@ -94,14 +95,15 @@ class _LoginScreenState extends State<LoginScreen> {
                         fontWeight: FontWeight.w700,
                         textColor: Colors.white,
                         onPressed: () async {
+                           Navigator.push(context,MaterialPageRoute(builder:(context)=>MyHomePage(value:_phone.text)),);
 //                          Navigator.push(context, MaterialPageRoute(
 //                                  builder: (context) => MyHomePage()),);
-                            debugPrint(_phone.text);
-                            debugPrint(_password.text);
-                            var auth = await authenticate();
-                            print(auth);
-                            Navigator.push(context, MaterialPageRoute(
-                                builder: (context) => MyHomePage(value:_phone.text)),);
+                            // debugPrint(_phone.text);
+                            // debugPrint(_password.text);
+                            // var auth = await authenticate();
+                            // print(auth);
+                            // Navigator.push(context, MaterialPageRoute(
+                            //     builder: (context) => MyHomePage(value:_phone.text)),);
 //                            if (auth == 'allowed') {
 //                              Navigator.push(context, MaterialPageRoute(
 //                                  builder: (context) => MyHomePage(value:_phone.text)),);

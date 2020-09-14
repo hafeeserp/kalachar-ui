@@ -14,14 +14,14 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_datetime_picker:
-    git:
-      url: https://github.com/derohimat/flutter_datetime_picker.git
+  # flutter_datetime_picker:
+    # git:
+    #   url: https://github.com/derohimat/flutter_datetime_picker.git
 #  flutter_datetime_picker: 1.2.5
   http: ^0.12.0+2
   autocomplete_textfield: ^1.6.4
@@ -32,6 +32,11 @@ dependencies:
   flutter_swiper : any
   charts_flutter:
   splashscreen:
+  rounded_loading_button: ^1.0.0
+  timer_count_down:
+  pin_code_text_field:
+  shared_preferences:
+  flutter_svg: ^0.18.0
   # firebase_auth: ^0.6.6
   # flutter_facebook_login: ^1.1.1
   # shared_preferences: any
@@ -46,6 +51,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+flutter_icons:
+  image_path: "assets/images/kalachaar.png" 
+  android: true
+  ios: true
+
 
 
 # For information on the generic Dart part of this file, see the

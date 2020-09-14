@@ -4,7 +4,6 @@ import "package:kalachar/ui/widgets/custom_text_field.dart";
 import 'package:toast/toast.dart';
 import 'dart:convert';
 import 'dart:core';
-import "package:kalachar/ui/screens/dancers.dart";
 import 'package:kalachar/ui/screens/welcome_screen.dart';
 import 'package:http/http.dart' as http;
 import 'dart:io';
@@ -286,7 +285,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 )
                             ),
                             onTap: () {
-                              Navigator.push(context,MaterialPageRoute(builder:(context)=>BookingScreen(org_name: parsed_data[index]["org_name"],org_phone: parsed_data[index]["org_phone"],org_addr: parsed_data[index]["org_addr"],value:widget.value)),);
+                              Navigator.push(context,MaterialPageRoute(builder:(context)=>BookingScreen()));
                             },
                           ),
                         );
@@ -383,7 +382,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )
             ),
               onTap: () {
-                Navigator.push(context,MaterialPageRoute(builder:(context)=>BookingScreen(org_name: parsed[index]["org_name"],org_phone: parsed[index]["org_phone"],org_addr: parsed[index]["org_addr"],value:widget.value)),);
+                // Navigator.push(context,MaterialPageRoute(builder:(context)=>BookingScreen(org_name: parsed[index]["org_name"],org_phone: parsed[index]["org_phone"],org_addr: parsed[index]["org_addr"],value:widget.value)),);
     },
             ),
             );
