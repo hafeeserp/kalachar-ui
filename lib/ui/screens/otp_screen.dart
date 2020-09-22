@@ -156,7 +156,7 @@ class _OtpScreenState extends State<OtpScreen> with  SingleTickerProviderStateMi
                                 const EdgeInsets.symmetric(horizontal: 30.0, vertical: 5),
                             child: RichText(
                               text: TextSpan(
-                                  text: "Enter the code sent",
+                                  text: "Enter the code sent to $mobileNumber",
                                   style: TextStyle(fontSize: 16, color: MyColors.primaryColor, fontFamily: 'Product Sans')),
                               textAlign: TextAlign.center,
                             ),
@@ -194,6 +194,11 @@ class _OtpScreenState extends State<OtpScreen> with  SingleTickerProviderStateMi
                           ),
                             child:RoundedLoadingButton(
                             onPressed: () async {
+                              SharedPreferences prefs = await SharedPreferences.getInstance();
+                              prefs?.clear();
+                              prefs?.setString("mobileNumber",mobileNumber);
+                              print('99999999999999999999999999');
+                              print(mobileNumber);
                               // verifyOtp();
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(
             builder: (BuildContext context) => DashboardScreen()), (route) => false);

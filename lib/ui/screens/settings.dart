@@ -106,7 +106,7 @@ class _ProfileState extends State<Profile> {
                                   height: 4,
                                 ),
                                 Text(
-                                  '8428849121',
+                                  mobileNumber,
                                   style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 14,

@@ -2,7 +2,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
+import 'package:kalachar/ui/screens/common.dart';
 import 'package:kalachar/ui/screens/datepicker.dart';
+import 'package:http/http.dart' as http;
 import 'package:kalachar/ui/widgets/theme.dart';
 import 'package:toast/toast.dart';
 
@@ -66,6 +68,20 @@ class _FinalDetailState extends State<FinalDetail>{
         });
     }
   }
+  }
+  void acceptRequest() async {
+      http.Response response = await api_call(context,'get','accept_request');
+      if (response == null) return;
+      if(response.statusCode == 200){
+         Toast.show("Payment Info sent shortly", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
+      }
+  }
+  void denyRequest() async {
+      http.Response response = await api_call(context,'get','deny_request');
+      if (response == null) return;
+      if(response.statusCode == 200){
+        Toast.show("Booking Declined", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
+      }
   }
   
   Widget build(BuildContext context){
@@ -163,10 +179,16 @@ class _FinalDetailState extends State<FinalDetail>{
                         side: BorderSide(color: MyColors.secondaryColor)),
                     onPressed: () {
                       if (turnOver=='Accept')
+                      {
+                        acceptRequest();
                       Toast.show("Payment Info sent shortly", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
-                      else
+                      
+                      }else
+                      {
+                        denyRequest();
                       Toast.show("Booking Declined", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
-                    },
+                    
+                    }},
                     color: MyColors.secondaryColor,
                     textColor: Colors.white,
                     child: Text("Submit".toUpperCase(),

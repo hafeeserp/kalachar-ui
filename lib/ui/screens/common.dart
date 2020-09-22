@@ -7,6 +7,7 @@ import 'package:toast/toast.dart';
 
 var mobileNumber;
 String api_url = 'https://kalachar.aerele.in';
+// String api_url = 'http://kalachaar-demo:8000';
 var loginAttemptId;
 var api_key;
 var api_secret;
@@ -23,7 +24,10 @@ Future<http.Response> api_call(BuildContext context,String api_call_type,String 
         "verify_otp":["/api/method/kalachar.kalachar.doctype.login_details.login_details.verify_otp", false],
         "resend_otp":["/api/method/kalachar.kalachar.doctype.login_details.login_details.resend_otp", false],
         "submit_others_new_contact": ["/api/method/kalachar.kalachar.doctype.user_information.user_information.create_new_user",true],
-        "get_contact_form_status": ["/api/method/essdee_partners_api.essdee_partners_api.doctype.contact_form.contact_form.status", true]
+        "get_contact_form_status": ["/api/method/essdee_partners_api.essdee_partners_api.doctype.contact_form.contact_form.status", true],
+        "send_request":["/api/method/kalachar.kalachar.doctype.booking_status.booking_status.send_booking_info?phone_no=6383291865", false],
+        "accept_request":["/api/method/kalachar.kalachar.doctype.booking_status.booking_status.accept_booking_info?phone_no=6383291865", false],
+        "deny_request":["/api/method/kalachar.kalachar.doctype.booking_status.booking_status.deny_booking_info?phone_no=6383291865", false],
       };
       if(header==null)
         header = {} ;
@@ -42,7 +46,7 @@ Future<http.Response> api_call(BuildContext context,String api_call_type,String 
       }
       if (api_call_type == 'get') {
         response = await http.get(
-            api_url + api_list[api_name][0].toString()+url_param, headers: header);
+            api_url + api_list[api_name][0].toString(), headers: header);
       }
       else{
         print(api_url);

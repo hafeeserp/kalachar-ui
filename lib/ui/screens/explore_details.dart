@@ -1,10 +1,14 @@
 
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
+import 'package:kalachar/ui/screens/common.dart';
 import 'package:kalachar/ui/screens/datepicker.dart';
 import 'package:kalachar/ui/widgets/theme.dart';
 import 'package:toast/toast.dart';
+import 'package:http/http.dart' as http;
 
 
 class InvoiceDetail extends StatefulWidget {
@@ -18,7 +22,7 @@ class InvoiceDetail extends StatefulWidget {
 class _InvoiceDetailState extends State<InvoiceDetail>{
   var invoice = new Map<String, dynamic>();
   bool disable_Claim;
-  String startDate = '01-04-2020';
+  String startDate = '24-08-2020';
    bool _validateName = false;
    bool _validateAmt = false;
    final _userController = TextEditingController();
@@ -42,7 +46,8 @@ class _InvoiceDetailState extends State<InvoiceDetail>{
         context: context,
         initialDate: DateFormat("dd-MM-yyyy").parse(startDate),
         firstDate: DateTime(2015, 8),
-        lastDate: DateTime.now());
+        lastDate: DateTime(2020, 11)
+        );
       else
         picked = await showDatePicker(
             context: context,
@@ -67,7 +72,15 @@ class _InvoiceDetailState extends State<InvoiceDetail>{
     }
   }
   }
-  
+  void sendRequest() async {
+      http.Response response = await api_call(context,'get','send_request');
+      if (response == null) return;
+
+      if(response.statusCode == 200){
+        Toast.show("Booking Confirmed", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
+      }
+  }
+
   Widget build(BuildContext context){
     bool editable = true;
     return Container(
@@ -287,6 +300,7 @@ class _InvoiceDetailState extends State<InvoiceDetail>{
                         side: BorderSide(color: MyColors.secondaryColor)),
                     onPressed: () {
                       Toast.show("Booking Confirmed", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
+                      sendRequest();
                     },
                     color: MyColors.secondaryColor,
                     textColor: Colors.white,

@@ -285,7 +285,6 @@ class OthersContactState extends State<OthersContact> {
   void submitOthersNewContact(var body) async {
     // try {
       Toast.show("Submitted Successfully", context,duration: Toast.LENGTH_LONG,gravity: Toast.BOTTOM);
-      // showInSnackBar("Submitted Successfully");
     //   http.Response response = await api_call(context,'post','submit_others_new_contact',
     //   data: body
     //   );

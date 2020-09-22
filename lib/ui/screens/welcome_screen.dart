@@ -251,9 +251,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                                     onPressed: () async {
                                       if (phoneController.text.length==10)
                                       {
-                //                         Navigator.push(context, MaterialPageRoute(
-                // builder: (context) => OtpScreen()));
-                                        login_attempt();
+                                        mobileNumber = phoneController.text;
+                                        Navigator.push(context, MaterialPageRoute(
+                builder: (context) => OtpScreen()));
+                                        // login_attempt();
                                         // print(loginAttemptId);
                                       }
                                       else{

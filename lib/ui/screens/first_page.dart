@@ -21,7 +21,8 @@ class _DashboardScreenState extends State<DashboardScreen>
   static List<Widget> _widgetOptions = <Widget>[
     FirstPage(),
   //  RewardPage(),
-    Profile()
+    Others(),
+    Profile(),
   ];
   static List<Widget> _widgetOptions_Others = <Widget>[
     Others(),
@@ -54,31 +55,28 @@ class _DashboardScreenState extends State<DashboardScreen>
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-        length: 2,
+        length: 3,
         child: Scaffold(
           bottomNavigationBar: BottomNavigationBar(
             elevation: 15.0,
             showUnselectedLabels: true,
             type: BottomNavigationBarType.fixed,
             items: <BottomNavigationBarItem>[
-              user_status?
+              // user_status?
                BottomNavigationBarItem(
-                icon: Icon(Icons.book,),
-                title: Text('Info', style: TextStyle(fontFamily: 'Product Sans'),),
-              )
-                :
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.question_answer,),
-                  title: Text('Info', style: TextStyle(fontFamily: 'Product Sans'),),
+                icon: Icon(Icons.search,),
+                title: Text('Explore', style: TextStyle(fontFamily: 'Product Sans'),),
+              ),
+               BottomNavigationBarItem(
+                  icon: Icon(Icons.help,),
+                  title: Text('Support', style: TextStyle(fontFamily: 'Product Sans'),),
                 ),
-//              BottomNavigationBarItem(
-//                icon: Icon(Icons.redeem),
-//                title: Text('Rewards', style: TextStyle(fontFamily: 'Product Sans'),),
-//              ),
+                // :
               BottomNavigationBarItem(
                 icon: Icon(Icons.settings),
                 title: Text('Settings', style: TextStyle(fontFamily: 'Product Sans'),),
               ),
+              
             ],
             currentIndex: _selectedIndex,
             selectedItemColor: MyColors.primaryColor,
